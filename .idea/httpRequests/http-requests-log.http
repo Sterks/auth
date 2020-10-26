@@ -1,0 +1,450 @@
+GET http://localhost:8000/api/me/contacts
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE3LCJSb2xlIjp7ImlkIjo1LCJyb2xlIjoidXNlciIsImRlc2NyaXB0aW9uIjoidXNlciJ9fQ.jTQ4bIlfMU6_BYwKdJ4g_kMRU0sImRfIni-m2e4SKns
+
+###
+
+POST http://auth:8000/api/contacts/new
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE3LCJSb2xlIjp7ImlkIjo1LCJyb2xlIjoidXNlciIsImRlc2NyaXB0aW9uIjoidXNlciJ9fQ.jTQ4bIlfMU6_BYwKdJ4g_kMRU0sImRfIni-m2e4SKns
+
+{ "name": "Denis", "Phone": "89105373905", "UserId": "2" }
+
+###
+
+GET http://localhost:8000/api/me/contacts
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE3LCJSb2xlIjp7ImlkIjo1LCJyb2xlIjoidXNlciIsImRlc2NyaXB0aW9uIjoidXNlciJ9fQ.jTQ4bIlfMU6_BYwKdJ4g_kMRU0sImRfIni-m2e4SKns
+
+###
+
+GET http://localhost:8000/api/me/contacts
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE3LCJSb2xlIjp7ImlkIjo1LCJyb2xlIjoidXNlciIsImRlc2NyaXB0aW9uIjoidXNlciJ9fQ.jTQ4bIlfMU6_BYwKdJ4g_kMRU0sImRfIni-m2e4SKns
+
+<> 2020-10-26T123614.200.json
+
+###
+
+POST http://localhost:8000/api/contacts/new
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE3LCJSb2xlIjp7ImlkIjo1LCJyb2xlIjoidXNlciIsImRlc2NyaXB0aW9uIjoidXNlciJ9fQ.jTQ4bIlfMU6_BYwKdJ4g_kMRU0sImRfIni-m2e4SKns
+
+{ "name": "Denis", "Phone": "89105373905", "UserId": "2" }
+
+<> 2020-10-26T123604.200.json
+
+###
+
+GET http://localhost:8000/api/me/contacts
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE3LCJSb2xlIjp7ImlkIjo1LCJyb2xlIjoidXNlciIsImRlc2NyaXB0aW9uIjoidXNlciJ9fQ.jTQ4bIlfMU6_BYwKdJ4g_kMRU0sImRfIni-m2e4SKns
+
+<> 2020-10-26T114524.200.json
+
+###
+
+POST http://localhost:8000/api/user/login
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gml.com", "password": "123456781"}
+
+<> 2020-10-26T114503.200.json
+
+###
+
+POST http://localhost:8000/api/user/login
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "runov_denis@yandex.ru", "password": "dsfsdf"}
+
+<> 2020-10-26T114439.200.json
+
+###
+
+GET http://localhost:8000/api/me/contacts
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE3LCJSb2xlIjp7ImlkIjo1LCJyb2xlIjoidXNlciIsImRlc2NyaXB0aW9uIjoidXNlciJ9fQ.jTQ4bIlfMU6_BYwKdJ4g_kMRU0sImRfIni-m2e4SKns
+
+<> 2020-10-26T114300.200.json
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gml.com", "password": "123456781"}
+
+<> 2020-10-26T114228.200.json
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmai3llll.com", "password": "123456781"}
+
+<> 2020-10-23T084417-2.200.json
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gma2illll.com", "password": "123456781"}
+
+<> 2020-10-23T084417-1.200.json
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gm1aillll.com", "password": "123456781"}
+
+<> 2020-10-23T084417.200.json
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmaillll.com", "password": "123456781"}
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmailll.com", "password": "123456781"}
+
+<> 2020-10-23T083917.200.json
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmailll.com", "password": "123456781"}
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmailll.com", "password": "123456781"}
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmailll.com", "password": "123456781"}
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmailll.com", "password": "123456781"}
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmailll.com", "password": "123456781"}
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmailll.com", "password": "123456781"}
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmailll.com", "password": "123456781"}
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmailll.com", "password": "123456781"}
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmailll.com", "password": "123456781"}
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmailll.com", "password": "123456781"}
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmailll.com", "password": "123456781"}
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmailll.com", "password": "123456781"}
+
+<> 2020-10-23T081727.200.json
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmailll.com", "password": "123456781"}
+
+<> 2020-10-23T081327.200.json
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmailll.com", "password": "123456781"}
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmailll.com", "password": "123456781"}
+
+<> 2020-10-23T080506.200.json
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmailll.com", "password": "123456781"}
+
+<> 2020-10-23T080306.200.json
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmailll.com", "password": "123456781"}
+
+<> 2020-10-23T080237.200.json
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmailll.com", "password": "123456781"}
+
+<> 2020-10-23T080122.200.json
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmailll.com", "password": "12345678"}
+
+<> 2020-10-23T080054.200.json
+
+###
+
+GET http://localhost:8000/api/me/contacts
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjN9.g_tVFfrVjTDWM_XcBtcwVX9-tDtJumHVqKNIJ9lIF4k
+
+<> 2020-10-23T075622.200.json
+
+###
+
+GET http://localhost:8000/api/me/contacts
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjN9.g_tVFfrVjTDWM_XcBtcwVX9-tDtJumHVqKNIJ9lIF4k
+
+###
+
+POST http://caller.pp.local
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer: CfDJ8ALY8hQB0cFKiNjtlgfw5kTL7rmy2uNBKS_xbpmVPjRG73GZ7u72HBgoVtGhQl-CTjI0mYbHCZ2tLIZ7T8PXxBl0iDBXoLRIPEWfdnr4b3gWNUw7KViN7nhpovRvuqpi_ST_IZJkGCx2CrJL_UT0ps8
+
+{"login": "denis_runov", "password": "4r2w3e1q"}
+
+###
+
+GET http://caller.pp.local
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-10-23T115218.200.html
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "den.runov@gmaill.com", "password": "12345678"}
+
+
+POST http://localhost:8000/api/user/login
+Accept: */*
+Cache-Control: no-cache
+
+{"email": "runov_denis@yandex.ru", "password": "dsfsdf"}
+
+<> 2020-10-23T114707.200.json
+
+###
+
+GET http://localhost:8000/api/me/contacts
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjN9.g_tVFfrVjTDWM_XcBtcwVX9-tDtJumHVqKNIJ9lIF4k
+
+<> 2020-10-23T112831.200.json
+
+###
+
+GET http://localhost:8000/api/me/contacts
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjN9.g_tVFfrVjTDWM_XcBtcwVX9-tDtJumHVqKNIJ9lIF4k
+
+<> 2020-10-23T112734.200.json
+
+###
+
+GET http://localhost:8000/api/me/contacts
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjN9.g_tVFfrVjTDWM_XcBtcwVX9-tDtJumHVqKNIJ9lIF4k
+
+<> 2020-10-23T112729.200.json
+
+###
+
+GET http://localhost:8000/api/me/contacts
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjYsIlJvbGUiOnsiaWQiOjAsInJvbGUiOiIiLCJkZXNjcmlwdGlvbiI6IiJ9fQ.Riupcct1-sysEyen0UE0G_FE5LDeErMC9DNWWrUSAE4
+
+###
+
+GET http://localhost:8000/api/me/contacts
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjYsIlJvbGUiOnsiaWQiOjAsInJvbGUiOiIiLCJkZXNjcmlwdGlvbiI6IiJ9fQ.Riupcct1-sysEyen0UE0G_FE5LDeErMC9DNWWrUSAE4
+
+###
+
+GET http://localhost:8000/api/me/contacts
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjYsIlJvbGUiOnsiaWQiOjAsInJvbGUiOiIiLCJkZXNjcmlwdGlvbiI6IiJ9fQ.Riupcct1-sysEyen0UE0G_FE5LDeErMC9DNWWrUSAE4
+
+<> 2020-10-23T105618.200.json
+
+###
+
+GET http://localhost:8000/api/me/contacts
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjYsIlJvbGUiOnsiaWQiOjAsInJvbGUiOiIiLCJkZXNjcmlwdGlvbiI6IiJ9fQ.Riupcct1-sysEyen0UE0G_FE5LDeErMC9DNWWrUSAE4
+
+<> 2020-10-23T105040.200.json
+
+###
+
+GET http://localhost:8000/api/me/contact
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjYsIlJvbGUiOnsiaWQiOjAsInJvbGUiOiIiLCJkZXNjcmlwdGlvbiI6IiJ9fQ.Riupcct1-sysEyen0UE0G_FE5LDeErMC9DNWWrUSAE4
+
+<> 2020-10-23T105016.404.txt
+
+###
+
+GET http://localhost:8000/api/me/contact
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjYsIlJvbGUiOnsiaWQiOjAsInJvbGUiOiIiLCJkZXNjcmlwdGlvbiI6IiJ9fQ.Riupcct1-sysEyen0UE0G_FE5LDeErMC9DNWWrUSAE4
+
+<> 2020-10-23T104937.404.txt
+
+###
+
+POST http://localhost:8000/api/user/new
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjN9.g_tVFfrVjTDWM_XcBtcwVX9-tDtJumHVqKNIJ9lIF4k
+
+{"email": "test@test.ru", "password": "12345678" }
+
+<> 2020-10-23T104933.200.json
+
+###
+
+GET http://localhost:8000/api/me/contact
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjYsIlJvbGUiOnsiaWQiOjAsInJvbGUiOiIiLCJkZXNjcmlwdGlvbiI6IiJ9fQ.Riupcct1-sysEyen0UE0G_FE5LDeErMC9DNWWrUSAE4
+
+<> 2020-10-23T104854.404.txt
+
